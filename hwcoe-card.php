@@ -15,3 +15,4 @@ function hwcoe_card_styles() {
 }
 
 require_once( plugin_dir_path( __FILE__ ) . 'card-shortcode.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'card-block.php' );

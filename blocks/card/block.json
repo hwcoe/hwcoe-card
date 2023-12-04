@@ -1,0 +1,15 @@
+{
+    "name": "acf/card",
+    "title": "Card (ACF Block)",
+    "description": "Display a card",
+    "icon": "id",
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "card.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "mode": false
+    }
+}

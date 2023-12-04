@@ -21,6 +21,17 @@
 }
 
 @media (min-width: 48rem) {
+  .stack-3 {
+    width: 45%;
+  }
+}
+@media (min-width: 66rem) {
+  .stack-3 {
+    width: 32%;
+  }
+}
+
+@media (min-width: 48rem) {
   .stack-4 {
     width: 45%;
   }
@@ -42,6 +53,7 @@
 }
 .card img {
   max-width: 100%;
+  height: auto;
 }
 .card h2, .card h3, .card h4, .card h5, .card h6 {
   font-size: 24px;
@@ -54,99 +66,12 @@
   margin: 10px auto;
 }
 
-/*
-.hwcoe-card {
-	background: #fff;
-	background: transparentize(#fff,.1);
-	padding: 15px;
-	margin: 0 0 20px 0;
-	font-size: 16px;
-	line-height: 20px;
-	box-shadow: 0px 2px 5px 0px	rgba(0, 0, 0, 0.4);
-	h2, h3, h4, h5, h6 {
-	  font-size: 22px;
-	  line-height: 26px;
-	}
-	h3 {
-		font-family: "gentona", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}
-	p, ul, ol, h2, h3, h4 {
-		&:last-child {
-			margin-bottom:0;
-		}
-		&:first-of-type {
-		  	margin-top:15px;
-		}
-	}
-	ul li, ol li {
-		margin: 0;
-	}
-	img {
-		display:block;
-		max-width:100%;
-		height:auto;
-	}
-	.btn {
-		font-size: 14px;
-		padding: 10px 15px;
-		width:100%;
-	}
-	.wp-block-image, .wp-block-cover {
-		margin: -15px -15px 10px -15px;
-		.aligncenter {
-			margin:0;
-		}
-		&:last-child {
-			margin-bottom:-15px;
-		}	
-	}
-	.wp-block-cover {
-		p {
-			margin-top:0;
-		}
-	}
-	.wp-block-button__link { 
-		border-radius: 0;
-	}
+.card-animated {
+  transition: transform 300ms ease-in-out;
 }
-
-.card-body {
-	padding:0 5px;
+.card-animated:hover, .card-animated:focus {
+  transform: translateY(-10px);
+  transform: scale(1.1);
 }
-.entry-content .card h2 {
-	  margin-top:0px;
-	  word-break: keep-all;
-	  overflow-wrap: normal;
-}
-.entry-content .card-block h2 {
-	// margin-top:0px;
-}
-// h2 directly below image in card
-.entry-content .card img + h2,
-.entry-content .card a + h2, {
-	margin-top:10px;
-}
-
-// card directly below h2
-.entry-content h2 + div.card-block,
-.entry-content h2 + div.card-wrapper {
-	margin-top:0;
-}
-.card--linked {
-	color: inherit;
-	font-weight: inherit !important;
-	text-decoration:inherit !important;
-	&:hover, &:focus, &:active {
-		color: inherit;
-	}
-}
-.card--animated {
-	transition:transform 300ms ease-in-out;
-}
-.card--animated:hover {
-	transform: translateY(-10px);
-	transform: scale(1.1);
-}
-*/
 
 /*# sourceMappingURL=styles.css.map */
