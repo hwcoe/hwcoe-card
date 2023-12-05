@@ -31,7 +31,6 @@
 		width:24%;
 	}
 }
-
 .card {
 	display: flex;
 	flex-direction: column;
@@ -63,5 +62,11 @@
 	&:hover, &:focus {
 		transform: translateY(-10px);
 		transform: scale(1.1);
+	}
+}
+
+.card-link {
+	&:hover {
+		text-decoration: none !important;
 	}
 }
