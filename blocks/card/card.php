@@ -51,7 +51,7 @@ $inner_blocks_template = array(
 		<?php if (!is_admin() && $url): ?>
 		<a href="<?php echo esc_url($url); ?>" class="card-link" <?php echo ($new_window) ? 'target="_blank"' : ''; ?>>
 		<?php endif; ?>
-			<div class="card">
+			<div class="card hwcoe-card">
 				<?php if ($image): ?>
 				<div class="card-img-top">
 					<?php echo wp_get_attachment_image( $image['ID'], 'full', '', array( 'alt' => 'test' ) ); ?>

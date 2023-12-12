@@ -43,7 +43,7 @@
 	?>
 
 	<div class="cards__item stack-<?php echo $grid_width; ?>">
-		<div class="card">
+		<div class="card hwcoe-card">
 			<?php 
 
 			$link = ( !empty($button_link) )? esc_url( $button_link ) : false;
